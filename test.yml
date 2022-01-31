@@ -1,3 +1,4 @@
 - hosts: redhat_oracle_centos
   roles:
     - common
+  become: yes
